@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.studentContainer {
+  background-color: whitesmoke;
+  font-family: sans-serif;
+  justify-content: flex-start;
+}
+.student {
+  display: flex;
+  justify-content: flex-start;
+}
+.studentInfoContainer {
+  font-family: railway;
+  flex-direction: column;
+  margin: 50px;
+}
+.img {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  margin: 50px;
+}
+.studentInfoHeader{
+  font: 3em sans-serif;
+  font-style: italic;
+  margin: 0;
+}
+
+.studentInfo {
+  font-family: railway;
+  flex-direction: column;
+  margin: 50px;
+}
+.searchInputs {
+  margin: auto;
+  display: block;
+  font-style: italic;
+}
+.gradeButton {
+  font-size: large;
+  width: 60px;
+  height: 100%;
+}
+.hideGrades {
+  display: none;
+  
+}
